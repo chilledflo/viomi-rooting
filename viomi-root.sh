@@ -166,7 +166,7 @@ function restore_robot_services() {
 }
 
 function install_valetudo() {
-  wget "https://github.com/Hypfer/Valetudo/releases/download/2021.03.0/valetudo-armv7" -O valetudo
+  wget "https://github.com/Hypfer/Valetudo/releases/download/2021.11.0/valetudo-armv7" -O valetudo
   chmod +x valetudo
   echo "1c3e91b944fcbf80bb7508df3900059d851198a47fcd0abf6a439f1fda0086c4  valetudo" > valetudo.sha256
   sha256sum -c valetudo.sha256 || exit
